@@ -15,6 +15,7 @@ define(['N/ui/message'],
             });
         }
         function saveRec(context) {
+            // test comment
             var rec = context.currentRecord;
             var currentDate = new Date()
             var oneWeekAgo = new Date(currentDate - 1000 * 60 * 60 * 24 * 7);
